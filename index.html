@@ -9,6 +9,45 @@
     <title>Address Book</title>
   </head>
   <body class="container-fluid">
+    <h1 class="jumbotron background-image">Enter Contact Information</h1>
+    <button id="btn-toggle-contact" class="btn btn-dark">Toggle Contact Form</button>
 
+    <form id="show-contactForm" class="well background-blue initial-hide">
+      <div class="form-group">
+        <label for="fullName">Name:</label>
+        <input id="fullName" class="form-control" type="text" >
+      </div>
+      <div class="form-group">
+        <label for="address1">Address Line 1:</label>
+        <input id="address1" class="form-control" type="text" >
+      </div>
+      <div class="form-group">
+        <label for="address2">Address Line 2: (Optional)</label>
+        <input id="address2" class="form-control" type="text" >
+      </div>
+      <div class="row">
+        <div class="form-group col-md-2">
+          <label for="city">City:</label>
+          <input id="city" class="form-control" type="text" >
+        </div>
+        <div class="form-group col-md-2">
+          <label for="state">State:</label>
+          <input id="state" class="form-control" type="text" >
+        </div>
+        <div class="form-group col-md-4">
+          <label for="zipcode">Zipcode:</label>
+          <input id="zipcode" class="form-control" type="text" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="contactEmail">Email: </label>
+        <input id="contactEmail" class="form-control" type="text" >
+      </div>
+      <div class="form-group">
+        <label for="contactNumber">Phone Number: </label>
+        <input id="contactNumber" class="form-control" type="text" >
+      </div>
+      <button id="btn-submit" class="btn btn-dark">Submit!</button>
+    </form>
   </body>
 </html>

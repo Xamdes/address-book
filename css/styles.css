@@ -3,10 +3,28 @@ body {
   font-size: 1.5em;
 }
 
+h1 {
+  text-align: center;
+}
+
+.purchase-order {
+  font-size: 1.5em;
+  background-color: lightblue;
+}
+
 .background-blue {
   background-color: lightblue;
 }
 
 .center-text {
   text-align: center;
+}
+
+.initial-hide {
+  display: none;
+}
+
+.btn-dark {
+  background-color: grey;
+  color: white;
 }
