@@ -19,7 +19,7 @@ $(function() {
     var address1 = "";
     var address2 = "";
     var city = "";
-    var state = ""
+    var state = "";
     var zipcode = "";
     var contactEmail="";
     var contactNumber="";
