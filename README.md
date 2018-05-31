@@ -2,8 +2,8 @@
 
 ## Author
 
-Steven Colburn
-Swati Sahay
+Steven Colburn  
+Swati Sahay 
 
 ## Project Name
 
